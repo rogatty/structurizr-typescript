@@ -13,7 +13,8 @@ export class AutomaticLayout {
             rankSeparation: this.rankSeparation,
             nodeSeparation: this.nodeSeparation,
             edgeSeparation: this.edgeSeparation,
-            vertices: this.vertices
+            vertices: this.vertices,
+            implementation: 'Graphviz'
         };
     }
 
